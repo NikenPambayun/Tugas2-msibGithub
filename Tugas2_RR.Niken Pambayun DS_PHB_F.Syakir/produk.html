@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register Produk</title>
+</head>
+
+<body bgcolor="azure">
+    <form>
+        <table border="0" align="center" cellpadding="10" width="30%">
+            <thead>
+                <tr bgcolor="turquoise">
+                    <th colspan="2">Form Register Produk</th>
+                </tr>
+            </thead>
+            <!-- tfoot walaupun kodingan ada di tengah tetapi akan tampil akan tetap di bawah -->
+            <tfoot>
+                <tr bgcolor="turquoise">
+                    <th colspan="2">
+                        <button type="submit">Kirim</button>
+                        <button type="reset">Batal</button>
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>
+                        <!-- inputan nama menggunakan type teks -->
+                        <label>Nama Produk</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" size="30" width="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Jenis Produk</label>
+                    </td>
+                    <td>
+                        <select name="kategori">
+                            <option value="">--- Kategori Produk ---</option>
+                            <option value="Elektronik">Elektronik</option>
+                            <option value="Makanan">Makanan</option>
+                            <option value="Pakaian">Pakaian</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- inputan nama menggunakan type teks -->
+                        <label>Harga</label>
+                    </td>
+                    <td>
+                        <input type="text" name="harga" size="30" width="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- inputan nama menggunakan type teks -->
+                        <label>Stok</label>
+                    </td>
+                    <td>
+                        <input type="text" name="stok" size="30" width="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- inputan nama menggunakan type teks -->
+                        <label>Photo</label>
+                    </td>
+                    <td>
+                        <input type="text" name="photo" value="" size="30" width="100">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
